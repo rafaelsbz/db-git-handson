@@ -29,8 +29,6 @@ public class MyProgram {
 
   /**
    * Reads all the files from a given path and returns their contents as a String.
-   * Contents from different files are separated by a linebreak (\n).
-   * @throws IOException 
    */
   public String readAllFiles(String path) throws IOException {
     return Files.walk(Paths.get(path))
