@@ -17,7 +17,7 @@ O projeto utiliza [https://gradle.org/](Gradle) para build / execução.
 
 Executa a aplicação. Imprime a saída no standard output.
 
-### Importanto o projeto no Eclilpse
+### Importanto o projeto no Eclipse
 ```gradle eclipse```
 
 Gera os arquivso de um projeto Eclipse na raiz do projeto. A partir daí, ele pode ser importanto utilizando o Wizard 'Import Existing Projects' do Eclipse
