@@ -13,7 +13,9 @@ public class Main {
     MyProgram myprogram = new MyProgram();
     String theWorld = "World";
     System.out.println(myprogram.greet(theWorld));
+    System.out.println();
     System.out.println(myprogram.readAllFiles("./src/main/resources/"));
+    System.out.println();
     System.out.println(myprogram.sayGoodbyeTo(theWorld));
   }
 
